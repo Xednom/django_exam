@@ -30,7 +30,7 @@ def fibo(request, n):
     return render_to_response('exam/fibonacci.html', {'n': n, 'r': result})
 
 
-def fib(n, i):
+def fib(n):
     if(n == 0):
         return 0
     elif(n == 1):
